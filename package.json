@@ -1,0 +1,43 @@
+{
+  "name": "extend-accessors",
+  "version": "0.0.0",
+  "description": "extend objects with accessors without poofing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && node test/*.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fnky/extend-accessors.git"
+  },
+  "keywords": [
+    "extend",
+    "object",
+    "accessors",
+    "descriptors"
+  ],
+  "author": "Christian Petersen <chrs@cbp.io> (http://cbp.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fnky/extend-accessors/issues"
+  },
+  "homepage": "https://github.com/fnky/extend-accessors",
+  "devDependencies": {
+    "standard": "^5.1.0",
+    "tape": "^4.2.0"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  }
+}
